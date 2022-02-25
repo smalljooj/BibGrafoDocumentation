@@ -24,6 +24,7 @@
 }
 html{
   height: 100%;
+  width: 100%;
 }
 body {
   height: 100%;
@@ -142,17 +143,7 @@ main div.code {
 main div.code > p {
   font-family: var(--fonte2);
 }
-@media screen and (max-width: 800px) {
-  main aside#lateral {
-    display: none;
-  }
-  main article {
-    margin: auto;
-    max-width: 90%;
-    
-  }
 
-}
 aside#lateral{
   position: absolute;
   margin: 10px;
@@ -178,7 +169,8 @@ aside#lateral p{
   font-size: 1.05em;
 }
 section.docs {
-  width: 85%;
+  position: inline-block;
+  text-Align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -192,7 +184,7 @@ section.docs ul{
 
 section.docs li{
   display: inline-block;
-  width: 300px;
+  width: 250px;
   height: 90px;
   margin: 10px;
 }
@@ -201,7 +193,7 @@ section.docs a {
   display: block;
   text-decoration: none;
   color: black;
-  width: 300px;
+  width: 250px;
   height: 90px;
 
   border: 1px black solid;
@@ -237,4 +229,17 @@ footer p {
   color: var(--cor5);
   text-Align: center;
   font-size: 0.8em;
+}
+
+@media screen and (max-width: 800px) {
+  main aside#lateral {
+    display: none;
+  }
+  main article {
+    margin: auto;
+    max-width: 80%;
+  }
+  section.docs {
+    min-width: 100%;
+  }
 }
