@@ -106,6 +106,9 @@ main article table{
 main article table td {
   padding: 5px;
 }
+div.table {
+  overflow-x: auto;
+}
 
 main article h2{
   font-family: var(--fonte3);
