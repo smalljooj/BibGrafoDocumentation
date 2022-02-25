@@ -79,7 +79,7 @@ nav  a:hover {
 
 }
 main {
-  min-height: 75.5%;
+  min-height: 75.7%;
 }
 main a {
   text-decoration: none;
@@ -219,13 +219,15 @@ section.docs a:hover {
 }
 footer {
   position: relative;
+  bottom: 0;
   background-color: var(--cor1);
-  height: 40px;
+  
   margin-top: 15px;
   padding-bottom: 4px;
 }
 footer p {
   padding: 2px;
+
   color: var(--cor5);
   text-Align: center;
   font-size: 0.8em;
