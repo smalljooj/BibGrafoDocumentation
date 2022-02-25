@@ -4,17 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
 :root {
 	--fonte1: Verdana, Geneva, Tahoma, sans-serif;
-	--fonte2:  'Roboto Mono', monospace;
+	--fonte2: 'Roboto Mono', monospace;
 	--fonte3: 'Passions Conflict', cursive;
-    --fonte4: 'Nunito', sans-serif;
+  --fonte4: 'Nunito', sans-serif;
 
-    --cor1: #095256;
-    --cor2: #DCDCD0;
-    --cor3: #7E6C6C;
-    --cor4: #aef6c7;
-    --cor5: #fbfbfb;
-    --cor5s: #d9d9d9;
-    --cor6: #cfd8d7;
+  --cor1: #095256;
+  --cor2: #DCDCD0;
+  --cor3: #7E6C6C;
+  --cor4: #aef6c7;
+  --cor5: #fbfbfb;
+  --cor5s: #d9d9d9;
+  --cor6: #cfd8d7;
 }
 
 * {
@@ -143,12 +143,13 @@ main div.code > p {
   font-family: var(--fonte2);
 }
 @media screen and (max-width: 800px) {
-  main div#lateral {
+  main aside#lateral {
     display: none;
   }
   main article {
     margin: auto;
     max-width: 90%;
+    
   }
 
 }
