@@ -24,14 +24,76 @@
 				<a href="#">Sobre</a>
 		</nav>
 		<main>
-
-			<aside>
-				<div id="lateral">
-
-				</div>
+			<aside id="lateral">
+				<h3>
+					Dicas
+				</h3>
+				<br>
+				<p>
+					Utilize ambientes virtuais e certifique-se da tag (venv) no terminal.
+					Ela indica que o ambiente está ativo.
+				</p>
 			</aside>
 			<article>
-				<h1>Formas de Download</h1>
+				<h1>Download</h1>
+				<br>
+				<h2>O que é necessário para fazer o download?</h2>
+				<p>
+					É necessário ter o python e o pip instalado na máquina. Abaixo está o link
+					para o download do python.
+				</p>
+				<a href="https://www.python.org/downloads/" target="_blank">
+					<div class="links">
+						<p>Python</p>
+					</div>
+				</a>
+				<p>
+					Obs: Não se esqueça de marcar as caixinhas de instalação do <strong>pip</strong> e de adionar o python
+					no <strong>Path</strong>.
+				</p>
+
+				<br>
+
+				<h2>
+					Instalação da biblioteca
+				</h2>
+				<p>
+					Para instalar, abra o terminal/prompt e digite o seguinte comando:
+				</p>
+				<div class="code">
+					<p>
+						1-> pip install bibgrafo
+					</p>
+				</div>
+				<p>
+					É indicado o uso de um ambiente virtual python ou virtual environment. Se desejar utilize os
+					seguintes comando para instalar a virtualenv.
+				</p>
+				<div class="code">
+					<p>
+						1-> pip install virtualenv
+					</p>
+				</div>
+				<p>
+					Assim dentro da pasta onde deseja utilizar a biblioteca, inicie a virtualenv e em seguida
+					instale a biblioteca BibGrafo.
+				</p>
+				<div class="code">
+					<p>
+						1-> virtualenv venv
+					</p>
+					<p>
+						2-> venv/scripts/activate
+					</p>
+					<p>
+						3-> pip install bibgrafo
+					</p>
+				</div>
+				<p>
+					Obs: Se você utilizar cmd utilize aspas ao redor do comando para ativar a virtualenv, desta
+					forma: <strong>"venv/scripts/activate"</strong>.
+				</p>
+
 			</article>
 		</main>
 		<footer>
