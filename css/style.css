@@ -196,9 +196,11 @@ section.docs a {
   width: 250px;
   height: 90px;
 
-  border: 1px black solid;
+  background-color: var(--cor5);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  padding: 5px;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.3s;
 }
 div.btimg {
   display: inline-block;
@@ -221,7 +223,7 @@ footer {
   position: relative;
   bottom: 0;
   background-color: var(--cor1);
-  
+
   margin-top: 15px;
   padding-bottom: 4px;
 }
