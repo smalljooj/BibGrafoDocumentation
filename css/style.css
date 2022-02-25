@@ -110,12 +110,25 @@ main article p {
   }
 
 }
-main div#lateral{
+aside#lateral{
   position: absolute;
   margin: 10px;
-  background-color: pink;
-  width: 230px;
-  height: 20%;
+  background-color: var(--cor5);
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+}
+aside#lateral h3 {
+  font-family: var(--fonte3);
+  font-size: 1.1em;
+}
+aside#lateral ul {
+  list-style-type: '\2714\00A0\00A0';
+  margin-left: 40px;
+}
+aside#lateral a{
+  text-decoration: none;
 }
 section.docs {
   width: 85%;
@@ -137,15 +150,6 @@ section.docs li{
   margin: 10px;
 }
 
-section.docs img{
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-}
-section.docs a > h2 {
-  display: inline-block;
-  padding-left: 15px;
-}
 section.docs a {
   display: block;
   text-decoration: none;
@@ -156,6 +160,19 @@ section.docs a {
   border: 1px black solid;
   border-radius: 10px;
   padding: 5px;
+}
+div.btimg {
+  display: inline-block;
+}
+div.btimg img{
+  width: 80px;
+  height: 80px;
+}
+div.bttxt{
+  display: inline-block;
+  height: 90px;
+  vertical-align: middle;
+  padding: 10px;
 }
 section.docs a:hover {
   background: var(--cor2);
